@@ -1,0 +1,151 @@
+@media screen and (max-width: 767px){
+    .form-section{
+        width: 100%;
+        position: relative;
+    } 
+}
+
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+.page {
+    margin: 0px 400px;
+}
+
+.logo{
+    text-align: center;
+    max-width: 100%;
+    padding: 30px 0;
+}
+
+.logo > img{
+    max-width: 250px;
+    width: 250px;
+}
+
+.pre-header {
+    padding: 90px 0px;
+    background-color: #15A4C0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 60px;
+    font-weight: 350;
+}
+
+.pre-header-content {
+    padding: 30px 20px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.8;
+}
+
+.btn {
+    background-color: #9ACD8B;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    margin: 50px;
+}
+
+.content-main {
+    padding: 10px 80px;
+    color: #575656;
+}
+
+.content-title {
+    color: #15A4C0;
+}
+
+.content-text {
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.content-sub {
+    color: #9ACD8B;
+}
+
+.secondary-content {
+    padding: 10px 30px 100px 325px;
+    background-color: #15A4C0;
+    color: white;
+}
+
+.secondary-content-sub {
+    color: white;
+}
+
+.footer {
+    padding: 10px 80px;
+    color: #575656;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: row;
+}
+.footer-contact {
+    color: #15A4C0;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 16px 0px;
+}
+
+.footer-links {
+    color: #575656;
+    text-decoration: none;
+}
+
+.form-logo{
+    text-align: center;
+    max-width: 100%;
+    padding: 30px 0;
+}
+
+.form-section{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-row{
+    margin: 25px 0 0 0;
+}
+
+label {
+    text-align: left;
+    display: block;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #999999;
+    display: block;
+}
+
+input[type=submit]{
+    background-color: skyblue;
+    padding: 10px 25px;
+    border: 1px solid #000;
+    color: #000;
+    font-family: Verdana;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Force24 DevTest</title>
+</head>
+<body>
+    <div class="page">
+        <header class="logo">
+            <img src="images/logo.png">
+        </header>
+        <div class="pre-header">
+            <h1 class="header-title">Force24 Brand <br>
+                Generic Email</h1>
+            <div class="pre-header-content">
+                <p>Our <b>Content Lab</b> is home to a whole host of useful guides...<br>
+                    <i>GDPR compliance, Marketing Automation, The Perfect Email <br>
+                    Nurture Sequences and much more!</i></p>
+                <button class="btn">EXPLORE THE CONTENT LAB</button>
+            </div>
+            
+        </div>
+        <div class="content-main">
+            <h2 class="content-title">Hello</h2>
+            <p class="content-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Reprehenderit adipisci recusandae sequi nisi? Iusto doloremque quasi,
+                tempora quod ut officiis praesentium soluta corporis autem totam sit? 
+                Aperiam ratione accusantium accusamus?</p>
+            <p class="content-text">Explicabo, iusto magni dicta eum cumque recusandae officia a dolor veniam expedita ea, 
+                soluta laborum ipsam repudiandae molestias repellendus reiciendis velit atque?</p>
+            <p class="content-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <button class="btn">BOOK A DEMO</button>
+            <a href="https://www.google.com/" class="content-sub">SUBSCRIBE ON YOUTUBE</a>    
+        </div>
+        <div class="secondary-content">
+            <h3>Lorem ipsum dolor sit amet consectetur</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Animi voluptatum, saepe fuga, rem sint aperiam amet numquam, 
+            expedita facilis quis laborum deserunt enim ut reiciendis officia ducimus distinctio at. Quas?</p>
+            <a href="https://www.youtube.com/" class="secondary-content-sub">SUBSCRIBE ON YOUTUBE</a>
+        </div>
+        <footer class="footer">
+            <div class="footer-contacts">
+                <p class="footer-contact">0845 272 5990&nbsp;|</p>
+                <a href="https://force24.co.uk/" target="_blank" class="footer-contact">&nbsp;Force24.co.uk</a>
+            </div>
+            <p>2, Indigo Blu, 14 Crown Point Rd, Leeds LS10 1EL  |  ©Force24</p>
+            <p>Important: If you have received this email in error or are a consumer unconnected to
+                the aforementioned business, please unsubscribe from this email and you will receive no
+                further communications from Force24.
+            </p>
+            <div>
+                <a href="https://www.google.com/" class="footer-links">View in your browser  |  </a>
+                <a href="https://www.google.com/" class="footer-links">Subscription Preferences  |  </a>
+                <a href="https://www.google.com/"class="footer-links">Unsubscribe</a>
+            </div>
+        </footer>
+
+        <div>
+            <header class="form-logo">
+                <img src="images/logo.png">
+            </header>
+            <form class="form-section f24form" id="contact-form" data-f24name="contact-form">
+                <label>First Name*</label>
+                <input type="text" name="fName" required>
+                <label>Last Name*</label>
+                <input type="text" name="lName" required>
+                <label>Email Address*</label>
+                <input type="text" name="eAddress" required>
+                <label>Phone Number</label>
+                <input type="text" name="number">
+                <label>Address Line 1</label>
+                <input type="text" name="address1">
+                <label>Address Line 2</label>
+                <input type="text" name="address2">
+                <label>Postcode</label>
+                <input type="text" name="pCode">
+                <input type="checkbox">I'd like to receive marketing communications from Force24.
+                <input type="Submit">
+            </form>
+        </div>
+    </div>
+    <script>
+        !function(f,o,r,c,e,_2,_4){f.Force24Object=e,f[e]=f[e]||function(){
+        (f[e].q=f[e].q||[]).push(arguments)},f[e].l=1*new Date,
+        _2=o.createElement(r),_4=o.getElementsByTagName(r)[0],_2.async=1,
+        _2.src=c,_4.parentNode.insertBefore(_2,_4)}(window,document,
+        "script","//tracking1.force24.co.uk/tracking/V2/main.min.js","f24");
+   
+        f24("create", "8a770dc8-e349-4ba2-be2d-b41644af538e");
+        f24("set", "key", "value");
+        f24("formMap", [
+            {
+                url:"http://127.0.0.1:5500/index.html?",
+                selector: "form.form-section",
+                meta:{id: 1, name: "", f24name: "contactForm"},
+                fields: {
+                    FirstName: "fName",
+                    LastName: "lName",
+                    EmailAddress: "eAddress",
+                    PhoneNumber: "number",
+                    AddressLine1: "address1",
+                    AddressLine2: "address2",
+                    PostCode: "pCode"
+                },
+                marketingList: "12345678-1234-1234-1234-123456789012",
+                status: {
+                    optInEmail: false
+                }
+            }
+        ]);
+        f24("send", "pageview");
+   </script>
+</body>
+</html>
